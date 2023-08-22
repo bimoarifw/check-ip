@@ -5,7 +5,7 @@
   <img src="https://raw.githubusercontent.com/github/explore/main/topics/css/css.png" alt="CSS" width="50" height="50" />
   <img src="https://leafletjs.com/docs/images/favicon.ico" alt="JavaScript" width="50" height="50" />
 </p>
-This project provides a web-based tool that allows users to check and gather detailed information about their IP address. It provides insights into network details, geographic location, timezone, and more. The Check IP tool utilizes [Leaflet](https://github.com/Leaflet/Leaflet), an open-source JavaScript library for interactive maps. Leaflet allows you to display geographic information interactively and provides the map functionality within the tool.
+This project provides a web-based tool that allows users to check and gather detailed information about their IP address. It provides insights into network details, geographic location, timezone, and more using <a href="https://leafletjs.com/">Leaflet</a> and <a href="https://ip-api.com/">IP API</a>.
 
 ## Live Demo
 
