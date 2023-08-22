@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check IP - @bimoarifw</title>
+    <meta name="description"
+        content="Check and gather detailed information about your IP address. Discover valuable insights, such as your IP address itself, network details, geographic location, timezone, and more.">
+    <meta name="keywords" content="Check IP, IP address, network details, check geographic location, check timezone">
+    <meta name="author" content="Bimo Arif Wibowo">
+    <meta name="robots" content="index">
+    <meta property="og:title" content="Check IP - @bimoarifw">
+    <meta property="og:description"
+        content="Check and gather detailed information about your IP address. Discover valuable insights, such as your IP address itself, network details, geographic location, timezone, and more.">
+    <meta property="og:image" content="https://example.com/your-image.jpg">
+    <meta property="og:url" content="https://bimoarifw.my.id">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="dist/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="dist/styles.min.css">
+    <script src="dist/leaflet/leaflet.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <h2>Check IP</h2>
+    </header>
+    <div id="info-container">
+        <p id="info-text">This tool provides you with the capability to check and gather detailed information about your
+            IP address. Discover valuable insights, such as your IP address itself, network details, geographic
+            location, timezone, and more.</p>
+        <button id="checkIpButton">Check IP</button>
+        <p id="info-text" class="notes">* Please note that achieving complete precision with the provided information
+            may not always be possible due to the dynamic nature of the internet and IP addresses.</p>
+    </div>
+    <button id="refreshButton" style="display: none;">Refresh</button>
+    <div id="container">
+        <div id="map-container"></div>
+        <div id="ipInfo"></div>
+    </div>
+    <footer>
+        <a href="https://bimoarifw.my.id">
+            <p>@bimoarifw</p>
+        </a>
+    </footer>
+    <script src="dist/scripts.min.js"></script>
+</body>
+
+</html>
