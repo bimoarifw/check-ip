@@ -1,4 +1,4 @@
-# Check IP - @bimoarifw
+# Check IP
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/github/explore/main/topics/html/html.png" alt="HTML" width="50" height="50" />
